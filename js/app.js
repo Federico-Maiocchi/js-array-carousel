@@ -21,7 +21,7 @@ for (let i = 0; i < arrayCarousel.length; i++) {
     console.log(currentSrc);
     
     const htmlString = `
-    <div>
+    <div class="image">
         <img src="${currentSrc}">
     </div>
     `
@@ -29,3 +29,27 @@ for (let i = 0; i < arrayCarousel.length; i++) {
     console.log(htmlString);
     galleryDomElement.innerHTML += htmlString;
 }
+
+const imageDomElements = document.getElementsByClassName('image')
+
+// const secondImageDomeElements = imageDomElements[1]
+
+for (let i = 0; i < imageDomElements.length; i++) {
+
+    // console.log(i)
+
+    const currentAct = imageDomElements[i]
+    console.log(currentAct)
+
+    currentAct.classList.add('active')
+    console.log(currentAct)
+
+    
+
+
+}
+
+// const btnUpDocElement = document.querySelector('.btn-up');
+// btnUpDocElement.addEventListener ('click', function ( ) {
+
+// })

@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
-img {
+.image {
     max-width: 100%;
+    display: none;
+}
+
+.active {
     display: block;
 }
 
@@ -40,7 +44,7 @@ button {
     top: 5px;
     right: 0px;
     left: 0px;
-    z-index: 100px;
+    z-index: 100;
 }
 
 .btn-down {
@@ -48,7 +52,7 @@ button {
     bottom: 5px;
     right: 0px;
     left: 0px;
-    z-index: 100px;
+    z-index: 100;
 }
 
 
