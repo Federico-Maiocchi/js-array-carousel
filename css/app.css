@@ -9,15 +9,45 @@ img {
     display: block;
 }
 
-.main-header {
-    /* padding-bottom: 40px; */
+/* .main-header {
+    padding-bottom: 40px;
     
-}
+}  */
 
 .container {
     max-width: 500px;
     margin: 0 auto;
     padding-top: 50px;
+    
     /* border: 1px solid black; */
     /* background-color: red; */ 
 }
+
+.gallery {
+    position: relative;
+}
+
+button {
+    font-size: 40px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.btn-up {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    left: 0px;
+    z-index: 100px;
+}
+
+.btn-down {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    left: 0px;
+    z-index: 100px;
+}
+
+
