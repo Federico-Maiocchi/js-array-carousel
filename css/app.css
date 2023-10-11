@@ -10,7 +10,6 @@ img {
     object-fit: cover;
 } 
 
-
 .image {
     width: 100%;
     display: none;
@@ -24,16 +23,14 @@ img {
 
 .main-header {
     padding-top: 300px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 } 
 
 .container {
-    max-width: 500px;
-    margin: 0 auto;
-    
-    
-    /* border: 1px solid black; */
-    /* background-color: red; */ 
+    max-width: 900px;
+    height: 100%;
 }
 
 .gallery {
@@ -44,7 +41,7 @@ button {
     font-size: 40px;
     border: none;
     background: transparent;
-    color: white;
+    color: lightslategray;
     cursor: pointer;
 }
 
@@ -64,4 +61,6 @@ button {
     z-index: 100;
 }
 
-
+.container-small {
+    max-width: 174px;
+}
